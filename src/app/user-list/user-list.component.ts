@@ -32,7 +32,7 @@ export class UserListComponent implements OnChanges {
           }
         }
       });
-      // To Clean Array from undefined if the age is passed so the map will fill the gap with (undefined)
+     
       result = result.filter(it => it !== undefined);
       // Filter the Age out from the other filters
       if (filters['ageto'] && filters['agefrom']) {
